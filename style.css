@@ -29,3 +29,89 @@ body{
 ul {
     list-style: none;
 }
+
+.level1{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.mainText{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    max-width: 400px;
+}
+
+.infoText{
+    font-size: 16px;
+    color: #E5E7EB;
+    max-width: 400px;
+}
+
+button{
+    font-size: 18px;
+    padding:10px;
+    border-radius: 8px;
+}
+
+.button1{
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+
+img{
+    width:300px;
+    height: auto;
+}
+
+.level2{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.subject{
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    align-items: center;;
+    max-width: 250px;
+    max-height: auto;
+    font-size: 18px;
+    color: #1F2937
+}
+
+.level3{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    max-width: 900px;
+    display: flex;
+    align-self: center;
+}
+.author{
+    font-size: 20px;
+    font-weight: bolder;
+    align-self: center;
+}
