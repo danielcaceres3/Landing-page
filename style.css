@@ -35,6 +35,8 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .mainText{
@@ -71,6 +73,7 @@ img{
     display: flex;
     flex-direction: column;
     padding: 12px;
+
 }
 
 .subject{
@@ -83,7 +86,8 @@ img{
 .cards{
     display: flex;
     justify-content: space-evenly;
-    flex: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .content{
